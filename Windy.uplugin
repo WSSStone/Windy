@@ -1,0 +1,29 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "Envoke - Interactive Envrionment",
+    "Description": "",
+    "Category": "Other",
+    "CreatedBy": "stoner",
+    "CanContainContent": true,
+    "Modules": [
+      {
+        "Name": "EnvokeRuntime",
+        "Type": "Runtime",
+        "LoadingPhase": "Default"
+      },
+      {
+        "Name": "EnvokeEditor",
+        "Type": "Editor",
+        "LoadingPhase": "Default"
+      }
+    ],
+    "Plugins": [
+      { 
+        "Name": "EnhancedInput",
+        "Enabled": true
+      }
+    ]
+  }
+  
