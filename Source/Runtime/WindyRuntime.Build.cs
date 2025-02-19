@@ -10,20 +10,20 @@ public class WindyRuntime : ModuleRules
             new string[]
             {
                 "Core",
-                "CoreUObject",
                 "Engine",
-                "RHI",
-                "RenderCore",
-            }
+                "Projects",
+                "CoreUObject",
+				"RHI",
+				"Renderer",
+				"RenderCore",
+			}
         );
 
         PrivateDependencyModuleNames.AddRange(
             new string[]
             {
-				"InputCore",
-                "EnhancedInput",
-                "Slate",
-				"SlateCore", 
+                "InputCore",
+                "EnhancedInput"
 			}
         );
 	}

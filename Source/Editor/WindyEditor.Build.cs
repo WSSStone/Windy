@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class EnvokeEditor : ModuleRules
+public class WindyEditor : ModuleRules
 {
-    public EnvokeEditor(ReadOnlyTargetRules Target) : base(Target)
+    public WindyEditor(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -10,16 +10,16 @@ public class EnvokeEditor : ModuleRules
             new string[]
             {
                 "CoreUObject",
-				"Engine",
-                "UnrealEd", 
-				"Kismet",
-				"Core",
-				"RenderCore",
-				"RHI",
-				"AssetRegistry",
+                "Engine",
+                "UnrealEd",
+                "Kismet",
+                "Core",
+                "RenderCore",
+                "RHI",
+                "AssetRegistry",
                 "EditorFramework",
                 "EditorSubsystem",
-                "EnvokeRuntime",
+                "WindyRuntime",
             }
         );
 
@@ -27,8 +27,8 @@ public class EnvokeEditor : ModuleRules
             new string[]
             {
                 "AssetTools",
-				"Slate",
-				"SlateCore", 
+                "Slate",
+                "SlateCore",
                 "PropertyEditor",
                 "AssetRegistry",
                 "EditorStyle",
@@ -38,9 +38,9 @@ public class EnvokeEditor : ModuleRules
                 "ToolMenus",
                 "Projects",
                 "LevelEditor",
-				"DataLayerEditor",
+                "DataLayerEditor",
                 "EnhancedInput",
-			}
+            }
         );
-	}
+    }
 }

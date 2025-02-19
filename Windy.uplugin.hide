@@ -9,14 +9,20 @@
     "CanContainContent": true,
     "Modules": [
       {
-        "Name": "EnvokeRuntime",
+        "Name": "WindyRuntime",
         "Type": "Runtime",
-        "LoadingPhase": "Default"
+        "LoadingPhase": "PostConfigInit",
+        "WhitelistPlatforms": [
+          "Win64"
+        ]
       },
       {
-        "Name": "EnvokeEditor",
+        "Name": "WindyEditor",
         "Type": "Editor",
-        "LoadingPhase": "Default"
+        "LoadingPhase": "PostConfigInit",
+        "WhitelistPlatforms": [
+          "Win64"
+        ]
       }
     ],
     "Plugins": [
